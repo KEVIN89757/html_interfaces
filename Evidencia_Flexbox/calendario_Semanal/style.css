@@ -1,0 +1,400 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    background: #ccccccda;
+    padding: 50px;
+
+}
+
+.calendar-container{
+    display: flex;
+    flex-direction: row;
+    border: solid #cccccc79 2px;
+    height: 800px;
+    background-color: white
+
+
+}
+
+.time-bar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-right: 2px  solid #ccccccda;
+    padding-top: 50px;
+}
+
+.time-bar > span {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: dashed 2px #ccccccda;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    
+}
+
+
+.week{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    text-align: center;
+
+
+
+}
+
+.day-column{
+    flex-grow: 1;
+    border-right: 1px solid #ccccccda;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.day-header{
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccccccda;
+    background-color: #cccccc;
+    text-align: center;
+
+}
+
+.day-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.actividad1{
+    position: absolute;
+    height: 150PX;
+    background-color: rgb(235, 181, 81);
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+    right: 20px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad2{
+    position: absolute;
+    height: 230PX;
+    background-color: rgb(34, 133, 190);
+    top: 160px;
+    left: 4px;
+    border-radius: 5px;
+    right: 1px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad3{
+    position: absolute;
+    height: 90PX;
+    background-color: rgb(164, 209, 198);
+    top: 245px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad4{
+    position: absolute;
+    height: 220px;
+    background-color:  rgb(34, 133, 190);
+    top: 100px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+.actividad11{
+    position: absolute;
+    height: 150PX;
+    background-color:rgb(235, 181, 81);
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+    right: 20px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad22{
+    position: absolute;
+    height: 230PX;
+    background-color: rgb(236, 19, 19);
+    top: 160px;
+    left: 4px;
+    border-radius: 5px;
+    right: 1px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad33{
+    position: absolute;
+    height: 90PX;
+    background-color: rgb(164, 209, 198);
+    top: 245px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad44{
+    position: absolute;
+    height: 220px;
+    background-color:  rgb(84, 216, 84);
+    top: 100px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad111{
+    position: absolute;
+    height: 150PX;
+    background-color: rgb(235, 181, 81);
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+    right: 20px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad222{
+    position: absolute;
+    height: 230PX;
+    background-color: rgb(146, 9, 158);
+    top: 160px;
+    left: 4px;
+    border-radius: 5px;
+    right: 1px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad333{
+    position: absolute;
+    height: 90PX;
+    background-color: rgb(164, 209, 198);
+    top: 245px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad444{
+    position: absolute;
+    height: 220px;
+    background-color: rgb(146, 9, 158);
+    top: 100px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad1111{
+    position: absolute;
+    height: 150PX;
+    background-color:rgb(235, 181, 81);
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+    right: 20px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad2222{
+    position: absolute;
+    height: 230PX;
+    background-color: rgb(190, 127, 127);
+    top: 160px;
+    left: 4px;
+    border-radius: 5px;
+    right: 1px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad3333{
+    position: absolute;
+    height: 90PX;
+    background-color: rgb(164, 209, 198);
+    top: 245px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad4444{
+    position: absolute;
+    height: 220px;
+    background-color: rgb(190, 127, 127);
+    top: 100px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad11111{
+    position: absolute;
+    height: 150PX;
+    background-color:rgb(235, 181, 81);
+    top: 10px;
+    left: 20px;
+    border-radius: 5px;
+    right: 20px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad22222{
+    position: absolute;
+    height: 230PX;
+    background-color: rgb(216, 235, 52);
+    top: 160px;
+    left: 4px;
+    border-radius: 5px;
+    right: 1px;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad33333{
+    position: absolute;
+    height: 90PX;
+    background-color: rgb(164, 209, 198);
+    top: 245px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
+
+.actividad44444{
+    position: absolute;
+    height: 220px;
+    background-color: rgb(216, 235, 52);
+    top: 100px;
+    left: 1px;
+    border-radius: 5px;
+    right: 0;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 2px black;
+
+}
